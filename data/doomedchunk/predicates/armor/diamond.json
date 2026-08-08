@@ -1,0 +1,33 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate" : {
+            "equipment":{
+                "chest": {
+                    "items": ["minecraft:diamond_chestplate"]
+                }
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate" : {
+                "equipment":{
+                    "head": {
+                        "items": ["minecraft:diamond_helmet"]
+                    },
+                    "legs": {
+                        "items": ["minecraft:diamond_leggings"]
+                    },
+                    "feet": {
+                        "items": ["minecraft:diamond_boots"]
+                    }
+                }
+            }
+        } 
+    }
+]

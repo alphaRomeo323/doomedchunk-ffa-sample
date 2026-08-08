@@ -1,0 +1,15 @@
+[
+    {
+    "function": "set_nbt",
+    "tag": "{GunId:\"tacz:hk416d\"}"
+    },
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.hk416d.name",
+            "fallback": "HK-416A5",
+            "italic":false,
+            "color": "yellow"
+        }
+    }
+]

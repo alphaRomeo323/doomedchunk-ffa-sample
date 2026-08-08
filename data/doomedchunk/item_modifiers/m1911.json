@@ -1,0 +1,21 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.m1911.name",
+            "fallback": "M1911",
+            "italic":false,
+            "color": "green"
+        }
+    },
+    {
+        "function":"set_nbt",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"SEMI\", GunId:\"tacz:m1911\", GunCurrentAmmoCount:7}"
+    },
+    {
+        "function":"set_enchantments",
+        "enchantments":{
+        "minecraft:vanishing_curse": 1
+        }
+    }
+]

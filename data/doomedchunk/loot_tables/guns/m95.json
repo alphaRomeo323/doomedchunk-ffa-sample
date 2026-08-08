@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:chest",
+    "pools":[
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate": "tacz.gun.m95.name",
+                                "fallback": "Bullet M95",
+                                "italic":false,
+                                "color": "red"
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag": "{HasBulletInBarrel:true, GunFireMode:\"SEMI\", GunId:\"tacz:m95\", GunCurrentAmmoCount:5, AttachmentSCOPE:{id:\"tacz:attachment\", Count:1, tag:{AttachmentId:\"tacz:scope_standard_8x\"}}}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:ammo",
+                    "functions":[
+                        {
+                            "function":"set_nbt",
+                            "tag": "{AmmoId: \"tacz:50bmg\"}"
+                        },
+                        {
+                            "add": false,
+                            "count": 10,
+                            "function": "minecraft:set_count"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

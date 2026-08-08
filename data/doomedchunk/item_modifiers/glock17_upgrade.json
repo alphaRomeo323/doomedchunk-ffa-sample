@@ -1,0 +1,15 @@
+[
+    {
+    "function": "set_nbt",
+    "tag": "{GunId:\"tacz:b93r\",AttachmentLASER:{}}"
+    },
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.b93r.name",
+            "fallback": "B93R",
+            "italic":false,
+            "color": "green"
+        }
+    }
+]

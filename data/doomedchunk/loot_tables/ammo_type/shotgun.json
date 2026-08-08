@@ -1,0 +1,136 @@
+{
+    "type": "minecraft:chest",
+    "pools":[
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "functions":[
+                        {
+                            "function":"set_nbt",
+                            "tag": "{AmmoId: \"tacz:12g\"}"
+                        },
+                        {
+                            "add": false,
+                            "count": 12,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "tacz:ammo",
+                    "weight": 17
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions":[
+                        {
+                            "function":"set_nbt",
+                            "tag": "{AmmoId: \"tacz:12g\"}"
+                        },
+                        {
+                            "add": false,
+                            "count": 24,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "tacz:ammo",
+                    "weight": 12
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:ammo_box",
+                    "weight": 1,
+                    "functions":[
+                        {
+                            "function":"set_nbt",
+                            "tag": "{AmmoId: \"tacz:12g\", Level: 2, AmmoCount: 48}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "conditions":[{
+                "condition": "minecraft:random_chance",
+                "chance": 0.33
+            }],
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "functions":[
+                {
+                    "function":"set_enchantments",
+                    "conditions":[{
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.3
+                    }],
+                    "enchantments":{
+                        "minecraft:vanishing_curse": 1
+                    }
+                }
+            ],
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 4,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate": "tacz.gun.db_short.name",
+                                "fallback": "DB-2 Durin",
+                                "italic":false,
+                                "color": "blue"
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag": "{HasBulletInBarrel:true, GunFireMode:\"BURST\", GunId:\"tacz:db_short\", GunCurrentAmmoCount:2}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 3,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate": "tacz.gun.m870.name",
+                                "fallback": "M870",
+                                "italic":false,
+                                "color": "blue"
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag": "{HasBulletInBarrel:true, GunFireMode:\"SEMI\", GunId:\"tacz:m870\", GunCurrentAmmoCount:5}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 2,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate": "tacz.gun.aa12.name",
+                                "fallback": "AA-12",
+                                "italic":false,
+                                "color": "blue"
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:aa12\", GunCurrentAmmoCount:8}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate" : {
+        "equipment":{
+            "mainhand": {
+                "items": ["tacz:modern_kinetic_gun"],
+                "nbt": "{GunId:\"tacz:m4a1\"}"
+            }
+        }
+    }
+}

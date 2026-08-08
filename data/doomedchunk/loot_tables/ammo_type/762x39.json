@@ -1,0 +1,136 @@
+{
+    "type": "minecraft:chest",
+    "pools":[
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "functions":[
+                        {
+                            "function":"set_nbt",
+                            "tag": "{AmmoId: \"tacz:762x39\"}"
+                        },
+                        {
+                            "add": false,
+                            "count": 30,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "tacz:ammo",
+                    "weight": 17
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions":[
+                        {
+                            "function":"set_nbt",
+                            "tag": "{AmmoId: \"tacz:762x39\"}"
+                        },
+                        {
+                            "add": false,
+                            "count": 60,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "tacz:ammo",
+                    "weight": 12
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:ammo_box",
+                    "weight": 1,
+                    "functions":[
+                        {
+                            "function":"set_nbt",
+                            "tag": "{AmmoId: \"tacz:762x39\", Level: 2, AmmoCount: 120}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "conditions":[{
+                "condition": "minecraft:random_chance",
+                "chance": 0.33
+            }],
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "functions":[
+                {
+                    "function":"set_enchantments",
+                    "conditions":[{
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.3
+                    }],
+                    "enchantments":{
+                        "minecraft:vanishing_curse": 1
+                    }
+                }
+            ],
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 3,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate": "tacz.gun.ak47.name",
+                                "fallback": "AKM",
+                                "italic":false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:ak47\", GunCurrentAmmoCount:30, AttachmentSCOPE:{id:\"tacz:attachment\", Count:true, tag:{AttachmentId:\"tacz:sight_okp7\"}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 2,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate": "tacz.gun.sks_tactical.name",
+                                "fallback": "SKS Tactical",
+                                "italic":false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag": "{HasBulletInBarrel:true, GunFireMode:\"SEMI\", GunId:\"tacz:sks_tactical\", GunCurrentAmmoCount:10, AttachmentSTOCK:{id:\"tacz:attachment\", Count:true, tag:{AttachmentId:\"tacz:stock_ak12\"}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 1,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate": "tacz.gun.rpk.name",
+                                "fallback": "RPK",
+                                "italic":false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:rpk\", GunCurrentAmmoCount:40, AttachmentSTOCK:{id:\"tacz:attachment\", Count:true, tag:{AttachmentId:\"tacz:stock_ak12\"}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

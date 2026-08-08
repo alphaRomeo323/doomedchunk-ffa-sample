@@ -1,0 +1,6 @@
+# ダイヤ装備自動装着function
+# ---------------------------------
+# 防具置換
+item replace entity @s armor.head with minecraft:diamond_helmet{Unbreakable:true,Enchantments:[{id:"minecraft:binding_curse",lvl:1},{id:"minecraft:vanishing_curse",lvl:1}]}
+item replace entity @s armor.legs with minecraft:diamond_leggings{Unbreakable:true,Enchantments:[{id:"minecraft:binding_curse",lvl:1},{id:"minecraft:vanishing_curse",lvl:1}]}
+item replace entity @s armor.feet with minecraft:diamond_boots{Unbreakable:true,Enchantments:[{id:"minecraft:binding_curse",lvl:1},{id:"minecraft:vanishing_curse",lvl:1}]}

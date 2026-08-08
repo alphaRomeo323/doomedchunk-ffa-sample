@@ -1,0 +1,136 @@
+{
+    "type": "minecraft:chest",
+    "pools":[
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "functions":[
+                        {
+                            "function":"set_nbt",
+                            "tag": "{AmmoId: \"tacz:45acp\"}"
+                        },
+                        {
+                            "add": false,
+                            "count": 30,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "tacz:ammo",
+                    "weight": 17
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions":[
+                        {
+                            "function":"set_nbt",
+                            "tag": "{AmmoId: \"tacz:45acp\"}"
+                        },
+                        {
+                            "add": false,
+                            "count": 60,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "tacz:ammo",
+                    "weight": 12
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:ammo_box",
+                    "weight": 1,
+                    "functions":[
+                        {
+                            "function":"set_nbt",
+                            "tag": "{AmmoId: \"tacz:45acp\", Level: 2, AmmoCount: 120}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "conditions":[{
+                "condition": "minecraft:random_chance",
+                "chance": 0.33
+            }],
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "functions":[
+                {
+                    "function":"set_enchantments",
+                    "conditions":[{
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.3
+                    }],
+                    "enchantments":{
+                        "minecraft:vanishing_curse": 1
+                    }
+                }
+            ],
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 3,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate": "tacz.gun.p320.name",
+                                "fallback": "P320",
+                                "italic":false,
+                                "color": "green"
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag": "{HasBulletInBarrel:true, GunFireMode:\"SEMI\", GunId:\"tacz:p320\", GunCurrentAmmoCount:12, AttachmentSCOPE:{id:\"tacz:attachment\", Count:true, tag:{AttachmentId:\"tacz:sight_fastfire_pistol\"}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 2,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate": "tacz.gun.ump45.name",
+                                "fallback": "UMP-45",
+                                "italic":false,
+                                "color": "green"
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:ump45\", GunCurrentAmmoCount:25}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 1,
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate": "tacz.gun.vector45.name",
+                                "fallback": "Vector",
+                                "italic":false,
+                                "color": "green"
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:vector45\", GunCurrentAmmoCount:20}"
+                        }
+                    ]
+                } 
+            ]
+        }
+    ]
+}

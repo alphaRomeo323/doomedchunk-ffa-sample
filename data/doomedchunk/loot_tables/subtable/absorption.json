@@ -1,0 +1,77 @@
+{
+    "type": "minecraft:chest",
+    "pools":[
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate":"item.fps1.potion.absorption_splash.name",
+                                "fallback": "インスタントシールド",
+                                "italic":false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:16762624,CustomPotionEffects:[{Id:22,Amplifier:4,Duration:6000,ShowParticles:0b}]}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "add": false,
+                            "count": 2
+                        }
+                    ],
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate":"item.fps1.potion.absorption.name",
+                                "fallback": "ライフシールド",
+                                "italic":false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:16762624,CustomPotionEffects:[{Id:22,Amplifier:9,Duration:6000,ShowParticles:0b}]}"
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate":"item.fps1.potion.instant_health.name",
+                                "fallback": "ラストエリクサー",
+                                "italic":false,
+                                "color": "yellow"
+                            }
+                        },
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:6,Amplifier:9,ShowParticles:0b}]}"
+                        }
+                    ],
+                    "weight": 1
+                }
+
+            ]
+        }
+    ]
+}

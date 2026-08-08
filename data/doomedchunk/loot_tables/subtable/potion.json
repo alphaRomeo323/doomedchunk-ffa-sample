@@ -1,0 +1,196 @@
+{
+    "type": "minecraft:chest",
+    "pools":[
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate":"item.fps1.potion.speed.name",
+                                "fallback": "興奮剤",
+                                "italic":false,
+                                "color": "blue"
+                            }
+                        },
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:3402751,CustomPotionEffects:[{Id:1,Amplifier:2,Duration:600},{Id:8,Amplifier:2,Duration:600}]}"
+                        }
+                    ],
+                    "weight": 10
+                },
+                                {
+
+                    "type": "minecraft:item",
+                    "name": "minecraft:lingering_potion",
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate":"item.fps1.potion.slowness_lingering.name",
+                                "fallback": "毒ガス",
+                                "italic":false,
+                                "color":"red"
+                            }
+                        },
+                        {
+                        "function":"minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:2039587,CustomPotionEffects:[{Id:2,Amplifier:3,Duration:80},{Id:15,Duration:80}]}"
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate":"item.fps1.potion.levitation_splash.name",
+                                "fallback": "Pバルーン",
+                                "italic":false,
+                                "color":"blue"
+                            }
+                        },
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:13565951,CustomPotionEffects:[{Id:25,Amplifier:4,Duration:100}]}"
+                        }
+                    ],
+                    "weight": 4
+                },
+                                {
+
+                    "type": "minecraft:item",
+                    "name": "minecraft:lingering_potion",
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate":"item.fps1.potion.poison_lingering.name",
+                                "fallback": "ブラックアウトガス",
+                                "italic":false,
+                                "color":"red"
+                            }
+                        },
+                        {
+                        "function":"minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:5149489,CustomPotionEffects:[{Id:19,Amplifier:3,Duration:100},{Id:17,Amplifier:2,Duration:100}]}"
+                        }
+                    ],
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate":"item.fps1.potion.resistance.name",
+                                "fallback": "マジックシールド",
+                                "italic":false,
+                                "color": "blue"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate":"item.fps1.potion.resistance.desc",
+                                    "italic":false,
+                                    "color":"gray"
+                                }
+                            ],
+                            "mode": "replace all"
+                        },
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:9520880,CustomPotionEffects:[{Id:11,Amplifier:1,Duration:400}]}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate":"item.fps1.potion.invisibility.name",
+                                "fallback": "神隠しの液体",
+                                "italic":false,
+                                "color": "blue"
+                            }
+                        },
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:14,Duration:400}],CustomPotionColor:16185078}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate":"item.fps1.potion.invisibility.name",
+                                "fallback": "トリモチ",
+                                "italic":false,
+                                "color": "blue"
+                            }
+                        },
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:39,Duration:400}],CustomPotionColor:12576929}"
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lingering_potion",
+                    "functions":[
+                        {
+                            "function": "minecraft:set_name",
+                            "name":{
+                                "translate":"item.fps1.potion.weakness_splash.name",
+                                "fallback": "服だけを溶かすガス",
+                                "italic":false,
+                                "color":"red"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate":"item.fps1.potion.weakness_splash.desc",
+                                    "fallback": "弱体化を受けたプレイヤーは防具が消滅します",
+                                    "italic":false,
+                                    "color":"red"
+                                }
+                            ],
+                            "mode": "replace all"
+                        },
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:14565464,CustomPotionEffects:[{Id:7},{Id:18,Duration:100}]}"
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
