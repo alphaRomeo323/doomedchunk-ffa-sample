@@ -16,7 +16,7 @@ execute unless entity @e[tag=respawnPoint,tag=canRespawn] run tellraw @s {"text"
 execute unless entity @e[tag=respawnPoint,tag=canRespawn] run scoreboard players set @s respawn_timer 60
 execute unless entity @e[tag=respawnPoint,tag=canRespawn] run return 3
 # メッセージ表示
-tellraw @s {"text":"リスポーンします...","color":"aqua"}
+title @s actionbar {"text":"リスポーンします...","color":"aqua"}
 # テレポート
 teleport @s @e[limit=1,tag=respawnPoint,sort=random,tag=canRespawn]
 # ゲームモードをadventureにする

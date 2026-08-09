@@ -9,7 +9,7 @@ execute as @e[tag=lootingPoint,scores={chest=1}] at @s positioned ~ ~0.2 ~ unles
 # 補充フラグが外れているチェストに対しランダムにアイテム補充
 execute as @e[tag=lootingPoint,scores={chest=0},sort=random,limit=6] run function doomedchunk:chest/loot
 # お知らせ
-tellraw @a {"text":"新しいチェストが配置されました","color":"yellow"}
+title @a[team=in_game] actionbar {"text":"新しいチェストが配置されました","color":"yellow"}
 execute as @a[team=in_game] at @s run playsound minecraft:block.chest.close player @s ~ ~ ~ 0.8
 # すでに開けられているチェストから補充済みフラグを外す
 execute as @e[tag=lootingPoint,scores={chest=1}] at @s positioned ~ ~0.2 ~ unless data block ~ ~ ~ LootTable run scoreboard players set @s chest 0

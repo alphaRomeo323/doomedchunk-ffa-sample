@@ -2,7 +2,7 @@
 # ロビーに戻す際にも用いる
 # ----
 # アナウンス
-tellraw @s {"text":"ロビーに戻ります...","color":"aqua"}
+title @s actionbar {"text":"ロビーに戻ります...","color":"aqua"}
 # ゲームモード変更
 gamemode adventure @s
 # アイテムクリア
