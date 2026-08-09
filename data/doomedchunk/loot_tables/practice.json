@@ -12,7 +12,7 @@
                     "functions":[
                         {
                             "function":"set_nbt",
-                            "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:m4a1\", GunCurrentAmmoCount:30, AttachmentSTOCK:{id:\"tacz:attachment\", Count:true, tag:{AttachmentId:\"tacz:stock_ak12\"}}}"
+                            "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:hk416d\", GunCurrentAmmoCount:30, AttachmentSTOCK:{id:\"tacz:attachment\", Count:true, tag:{AttachmentId:\"tacz:stock_ak12\"}}}"
                         }
                     ]
                 }
