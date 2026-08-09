@@ -33,7 +33,7 @@
                         {
                             "function": "minecraft:set_name",
                             "name":{
-                                "translate":"item.fps1.potion.slowness_lingering.name",
+                                "translate":"item.fps1.potion.poison_lingering.name",
                                 "fallback": "毒ガス",
                                 "italic":false,
                                 "color":"red"
@@ -41,7 +41,7 @@
                         },
                         {
                         "function":"minecraft:set_nbt",
-                            "tag": "{CustomPotionColor:2039587,CustomPotionEffects:[{Id:2,Amplifier:3,Duration:80},{Id:15,Duration:80}]}"
+                            "tag": "{CustomPotionColor:5149489,CustomPotionEffects:[{Id:19,Amplifier:3,Duration:100},{Id:17,Amplifier:2,Duration:100}]}"
                         }
                     ],
                     "weight": 10
@@ -66,7 +66,7 @@
                     ],
                     "weight": 4
                 },
-                                {
+                {
 
                     "type": "minecraft:item",
                     "name": "minecraft:lingering_potion",
@@ -74,7 +74,7 @@
                         {
                             "function": "minecraft:set_name",
                             "name":{
-                                "translate":"item.fps1.potion.poison_lingering.name",
+                                "translate":"item.fps1.potion.slowness_lingering.name",
                                 "fallback": "ブラックアウトガス",
                                 "italic":false,
                                 "color":"red"
@@ -82,7 +82,7 @@
                         },
                         {
                         "function":"minecraft:set_nbt",
-                            "tag": "{CustomPotionColor:5149489,CustomPotionEffects:[{Id:19,Amplifier:3,Duration:100},{Id:17,Amplifier:2,Duration:100}]}"
+                            "tag": "{CustomPotionColor:2039587,CustomPotionEffects:[{Id:2,Amplifier:3,Duration:80},{Id:15,Duration:80}]}"
                         }
                     ],
                     "weight": 4
@@ -166,7 +166,7 @@
                             "function": "minecraft:set_name",
                             "name":{
                                 "translate":"item.fps1.potion.weakness_splash.name",
-                                "fallback": "服だけを溶かすガス",
+                                "fallback": "服だけを溶かす薬",
                                 "italic":false,
                                 "color":"red"
                             }
