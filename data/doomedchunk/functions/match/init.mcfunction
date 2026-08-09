@@ -30,6 +30,5 @@ scoreboard players operation remaining: count %= #secToMin calc
 scoreboard players operation remaining: calc /= #tickToMin calc
 scoreboard players operation remaining: calc *= #hundred calc
 scoreboard players operation remaining: count += remaining: calc
-# カウントダウン開始
+# カウントダウン用にタイトル表示時間を設定
 title @a times 0 0.5s 0.5s
-title @a title {"text":"5"}

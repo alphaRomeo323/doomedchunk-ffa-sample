@@ -6,8 +6,8 @@ tellraw @s {"type":"text", "text":"前の試合を途中退室した可能性が
 tellraw @s {"type":"text", "text":"心当たりがない場合は、マップ制作者にバグ報告をお願いします","color":"aqua"}
 # スコアボードを初期化する
 scoreboard players set @s kills 0
-# ロビーに戻す
 scoreboard players reset @s kill_number
+# ロビーに戻す
 effect clear @s
 effect give @s minecraft:instant_health 1 4 true
 execute as @s run function doomedchunk:spectate/disable

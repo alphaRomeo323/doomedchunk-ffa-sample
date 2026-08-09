@@ -36,8 +36,8 @@ effect give @s minecraft:invisibility 5 0 true
 # リスポーン待機状態を解除する
 scoreboard players set @s respawn_timer 0
 scoreboard players set @s highlight 0
+tag @s remove waitRespawn
 # 少人数マッチであればhighlightを加算する
 execute if entity @e[tag=smallMatch] run scoreboard players operation @s highlight = #highlightReset preset
-tag @s remove waitRespawn
 # 終了
 return 1

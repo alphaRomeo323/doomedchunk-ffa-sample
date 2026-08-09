@@ -7,6 +7,7 @@ execute if score #startGame game_flag matches 1 run function doomedchunk:timer/g
 # ゲームを初期化する
 execute if score @e[tag=gameTimer,limit=1] match_timer matches -100 run function doomedchunk:match/init
 # 開始カウントダウン
+execute if score @e[tag=gameTimer,limit=1] match_timer matches -100 run title @a title {"text":"5"}
 execute if score @e[tag=gameTimer,limit=1] match_timer matches -80 run title @a title {"text":"4"}
 execute if score @e[tag=gameTimer,limit=1] match_timer matches -60 run title @a title {"text":"3"}
 execute if score @e[tag=gameTimer,limit=1] match_timer matches -40 run title @a title {"text":"2"}

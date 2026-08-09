@@ -30,11 +30,11 @@ execute as @a if predicate doomedchunk:armor/diamond run function doomedchunk:ar
 execute as @a if predicate doomedchunk:armor/nothing run function doomedchunk:armor/nothing
 
 # 以下は関数化していないコマンド
-# calc領域をクリア (calcDebugタグを持つエンティティがいれば実行しない)
-execute unless entity @e[tag=autoExec] run scoreboard players reset * calc
 # 緩衝体力がなくなった場合衝撃吸収をクリア
 effect clear @a[nbt={AbsorptionAmount:0f}] minecraft:absorption
 # 空腹による移動速度デバフ付与
 effect give @a[scores={food=..9},team=in_game] minecraft:slowness 1 0 true
 # 不要アイテム消去
 clear @a minecraft:glass_bottle
+# calc領域をクリア (calcDebugタグを持つエンティティがいれば実行しない)
+execute unless entity @e[tag=calcDebug] run scoreboard players reset * calc
