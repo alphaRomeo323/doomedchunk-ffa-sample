@@ -18,6 +18,7 @@ execute positioned 0 -34 0 run place template fps1:map_sample_3_3 ~96 ~ ~96
 # execute positioned 0 -34 0 run place template dc:map_1_4 ~ ~ ~144
 # execute positioned 0 -34 0 run place template dc:map_2_4 ~48 ~ ~144
 # execute positioned 0 -34 0 run place template dc:map_3_4 ~96 ~ ~144
+# execute positioned 0 -34 0 run place template dc:map_4_1 ~144 ~ ~
 # execute positioned 0 -34 0 run place template dc:map_4_2 ~144 ~ ~48
 # execute positioned 0 -34 0 run place template dc:map_4_3 ~144 ~ ~96
 # execute positioned 0 -34 0 run place template dc:map_4_4 ~144 ~ ~144
