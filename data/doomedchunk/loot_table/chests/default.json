@@ -1,0 +1,91 @@
+{
+    "type": "minecraft:chest",
+    "pools":[
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:consumables",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:guns",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 2,
+            "entries":[
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:projectiles",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 3
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:buff_potions",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 7
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:equipments",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 5
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:armor",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 4
+                }
+            ]
+        }
+    ]
+}

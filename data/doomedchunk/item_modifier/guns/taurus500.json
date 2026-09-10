@@ -1,0 +1,18 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.taurus500.name",
+            "italic":false,
+            "color": "red"
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:taurus500\", GunCurrentAmmoCount:5}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSCOPE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:scope_qmk152\"}},count:1, id:\"tacz:attachment\"}}"
+    }
+]

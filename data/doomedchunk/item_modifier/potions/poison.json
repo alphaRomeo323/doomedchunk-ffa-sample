@@ -1,0 +1,24 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate":"item.doomedchunk.potion.poison_lingering.name",
+            "fallback": "毒ガス",
+            "italic":false,
+            "color":"red"
+        }
+    },
+    {
+        "function":"minecraft:set_components",
+        "components": {
+            "minecraft:potion_contents":{
+                "custom_color":8439583,
+                "custom_effects":[
+                    {"id":"minecraft:poison","duration":100,"amplifier":4,"show_particles":false,"show_icon":true},
+                    {"id":"minecraft:hunger","duration":100,"amplifier":3,"show_particles":false}
+                ]
+                
+            }
+        }
+    }
+]

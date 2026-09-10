@@ -1,0 +1,34 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate":"item.doomedchunk.potion.absorption_weak.name",
+            "fallback": "インスタントシールド",
+            "italic":false
+        }
+    },
+    {
+        "function": "minecraft:set_lore",
+        "lore": [
+            {
+                "translate":"item.doomedchunk.potion.absorption_weak.desc",
+                "fallback": "20ダメージを耐える一時的なシールドを付与します",
+                "italic":false,
+                "color":"yellow"
+            }
+        ],
+        "mode": "replace_all"
+    },
+    {
+        "function":"minecraft:set_components",
+        "components": {
+            "minecraft:potion_contents":{
+                "custom_color":16701501,
+                "custom_effects":[
+                    {"id":"minecraft:absorption","duration":12000,"amplifier":4,"show_particles":false,"show_icon":false}
+                ]
+                
+            }
+        }
+    }
+]

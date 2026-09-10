@@ -1,0 +1,14 @@
+{
+    "replace":false,
+    "values":[
+        "#minecraft:replaceable",
+        "#minecraft:dirt",
+        "minecraft:dirt_path",
+        "minecraft:farmland",
+        "#minecraft:sand",
+        "minecraft:gravel",
+        "#minecraft:flowers",
+        "#minecraft:crops",
+        "minecraft:scaffolding"
+    ]
+}

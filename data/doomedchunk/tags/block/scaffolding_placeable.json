@@ -1,0 +1,15 @@
+{
+    "replace":false,
+    "values":[
+        "#doomedchunk:breakable",
+        "#minecraft:leaves",
+        "#minecraft:logs",
+        "#minecraft:planks",
+        "#minecraft:wooden_stairs",
+        "#minecraft:base_stone_overworld",
+        "#c:cobblestones",
+        "minecraft:cobblestone_stairs",
+        "minecraft:cobblestone_slab",
+        "#minecraft:wool"
+    ]
+}

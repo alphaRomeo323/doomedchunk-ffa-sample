@@ -1,0 +1,14 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.db_short.name",
+            "italic":false,
+            "color": "blue"
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"BURST\", GunId:\"tacz:db_short\", GunCurrentAmmoCount:2}"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.aa12.name",
+            "italic":false,
+            "color": "blue"
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:aa12\", GunCurrentAmmoCount:8}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSCOPE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:sight_coyote\"}},count:1, id:\"tacz:attachment\"}}"
+    }
+]
