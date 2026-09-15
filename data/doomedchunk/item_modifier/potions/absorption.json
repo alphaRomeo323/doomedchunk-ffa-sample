@@ -12,7 +12,7 @@
         "lore":[
             {
                 "translate":"item.doomedchunk.potion.absorption.desc",
-                "fallback": "40ダメージを耐える一時的なシールドを付与します",
+                "fallback": "64ダメージを耐える一時的なシールドを付与します",
                 "italic":false,
                 "color":"yellow"
             }
@@ -25,7 +25,7 @@
             "minecraft:potion_contents":{
                 "custom_color":16701501,
                 "custom_effects":[
-                    {"id":"minecraft:absorption","duration":12000,"amplifier":9,"show_particles":false}
+                    {"id":"minecraft:absorption","duration":12000,"amplifier":15,"show_particles":false}
                 ]
                 
             },

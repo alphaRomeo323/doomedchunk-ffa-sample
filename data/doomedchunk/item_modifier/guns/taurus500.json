@@ -9,7 +9,7 @@
     },
     {
         "function":"set_custom_data",
-        "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:taurus500\", GunCurrentAmmoCount:5}"
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"SEMI\", GunId:\"tacz:taurus500\", GunCurrentAmmoCount:5}"
     },
     {
         "function":"set_custom_data",

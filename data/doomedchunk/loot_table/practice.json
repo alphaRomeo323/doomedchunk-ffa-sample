@@ -1,0 +1,52 @@
+{
+    "pools":[
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "functions":[
+                        {
+                            "function": "minecraft:reference",
+                            "name":"doomedchunk:guns/g36k"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:ammo_box",
+                    "functions":[
+                        {
+                            "function":"set_custom_data",
+                            "tag": "{AmmoId: \"tacz:556x45\", Creative:true}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:attachment",
+                    "functions":[
+                        {
+                            "function":"set_custom_data",
+                            "tag": "{AttachmentId: \"tacz:extended_mag_2\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

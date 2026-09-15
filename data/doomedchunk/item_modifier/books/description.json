@@ -1,0 +1,341 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate":"item.doomedchunk.book.desc.name",
+            "fallback": "Doomedchunk 遊び方",
+            "italic":false
+        }
+    },
+    {
+        "function":"set_written_book_pages",
+        "mode": "replace_all",
+        "pages":[
+            {
+                "type":"translatable",
+                "translate":"item.doomedchunk.book.desc.page.1",
+                "fallback":"§4DoomedChunkへようこそ!\n\n§0このワールドでは、Timeless of Classic Zero (TaCZ)を使用したPVPを楽しむことができます\nアイテムを漁り、より強力な武器を整えてキルを稼ぎましょう!\n\n",
+                "extra": [
+                    {
+                        "text": "死に抗え、この血塗られた領域で",
+                        "color": "dark_red",
+                        "underlined": true,
+                        "bold": true,
+                        "clickEvent": {
+                            "action": "open_url",
+                            "value": "https://github.com/alphaRomeo323/doomedchunk-ffa-sample"
+                        }
+                    }
+                ]
+            },
+            {
+                "translate":"item.doomedchunk.book.desc.page.2",
+                "fallback": "§4§l遊び方\n§0ワールドに最初に入ったプレイヤー(もしくは管理者)には、「%1$s」が渡されます。\nマッチを開始するには、この%1$s内に書かれている「%2$s」を押してください\n\nゲーム時間は、デフォルトで5分です\n一番敵を多く倒した人が勝利!",
+                "with": [
+                    {
+                        "translate":"item.doomedchunk.book.admin.name",
+                        "fallback": "管理用の本",
+                        "color":"blue"
+                    },
+                    {
+                        "translate":"item.doomedchunk.book.admin.start",
+                        "fallback":"クリックして開始",
+                        "underlined": true
+                    }
+                ]
+            },
+            {
+                "translate":"item.doomedchunk.book.desc.page.3",
+                "fallback": "§4§l遊び方\n§0ゲームが開始したら、§9まずはチェストを探しましょう!\n§0より強力な銃をはじめ、戦いを有利に進めるアイテムが入っています\n\n敵に射殺されるなどして死亡しても§9何度でも復活します§0\n持っていたアイテムは、その場に§9死体§0として残ります"
+            },
+            {
+                "translate":"item.doomedchunk.book.desc.page.5",
+                "fallback": "§4§l銃の取り扱い\n§0バニラの射撃武器と異なり\n%1$sを射撃する場合は§9左クリック§0を押します\n§9右クリック§0でスコープを覗くことができます。移動速度は下がりますが、精度が向上し、遠くが狙いやすくなります\n\n残弾数は右下から確認できます。残弾が少なくなったら§9R§0キーでリロードしてください",
+                "with": [
+                    {
+                        "translate":"item.doomedchunk.book.desc.page.5.gun",
+                        "fallback": "TaCZの銃",
+                        "underlined": true,
+                        "hoverEvent": {
+                            "action": "show_item",
+                            "contents": {
+                                "id": "tacz:modern_kinetic_gun",
+                                "components": {
+                                    "minecraft:custom_data": {"HasBulletInBarrel":true, "GunFireMode":"AUTO", "GunId":"tacz:m4a1", "GunCurrentAmmoCount":30}
+                                }
+                            }
+                        }
+                    }
+                            
+                ]
+            },
+            {
+                "translate":"item.doomedchunk.book.desc.page.6",
+                "fallback": "§4§l銃の取り扱い\n§0銃を持ったままチェストを開く際は、右クリックではなく§9O§0キーを使用します\n\n一部の銃では§9G§0キーでセミオート(1クリック1発のみ)とフルオート(押しっぱなしで連射)を切り替えることができます\n\n一部の武器では§9V§0キーでスコープの倍率や種類を変えることができます"
+            },
+            {
+                "translate":"item.doomedchunk.book.desc.page.9",
+                "fallback": "§4§l銃と弾薬\n§0銃をリロードするには、銃と同じ色の弾薬が必要です\nまた、銃には弾薬ごとに大まかな特徴があります\n",
+                "extra": [
+                    {
+                        "translate": "item.doomedchunk.book.desc.page.9.9mm",
+                        "fallback": "%s : 見つけやすいが威力は控えめ\n",
+                        "with": [
+                            {
+                                "translate":"tacz.ammo.9mm.name",
+                                "hoverEvent": {
+                                    "action": "show_item",
+                                    "contents": {
+                                        "id": "tacz:ammo",
+                                        "components": {
+                                            "minecraft:custom_data": {"AmmoId": "tacz:9mm"}
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "item.doomedchunk.book.desc.page.9.9mm",
+                        "fallback": "%s : 連射武器が多く扱いやすい\n",
+                        "with": [
+                            {
+                                "text":"5.56x45mm",
+                                "color": "gold",
+                                "hoverEvent": {
+                                    "action": "show_item",
+                                    "contents": {
+                                        "id": "tacz:ammo",
+                                        "components": {
+                                            "minecraft:custom_data": {"AmmoId": "tacz:556x45"}
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "item.doomedchunk.book.desc.page.9.9mm",
+                        "fallback": "%s : 弾数が少なく高威力\n",
+                        "with": [
+                            {
+                                "translate":"tacz.ammo.308.name",
+                                "hoverEvent": {
+                                    "action": "show_item",
+                                    "contents": {
+                                        "id": "tacz:ammo",
+                                        "components": {
+                                            "minecraft:custom_data": {"AmmoId": "tacz:308"}
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "item.doomedchunk.book.desc.page.9.9mm",
+                        "fallback": "%s : 高威力で近距離向き\n",
+                        "with": [
+                            {
+                                "translate":"tacz.ammo.12g.name",
+                                "hoverEvent": {
+                                    "action": "show_item",
+                                    "contents": {
+                                        "id": "tacz:ammo",
+                                        "components": {
+                                            "minecraft:custom_data": {"AmmoId": "tacz:12g"}
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+
+            },
+            {
+                "translate":"item.doomedchunk.book.desc.page.7",
+                "fallback": "§4§lアイテム紹介\n§0以下のアイテムは使用方法が特殊です\n",
+                "extra": [
+                    {
+                        "translate": "item.doomedchunk.book.desc.page.7.absorption",
+                        "fallback": "%1$s, %2$s :\nシールドとして追加の体力をゲットします\n%1$sは足元に投げて使用してください\n%2$sのほうが出現しにくい分、得られる体力が多いです",
+                        "with": [
+                            {
+                                "translate":"item.doomedchunk.potion.absorption_weak.name",
+                                "fallback": "インスタントシールド",
+                                "color":"blue",
+                                "hoverEvent": {
+                                    "action": "show_item",
+                                    "contents": {
+                                        "id": "minecraft:splash_potion",
+                                        "components": {
+                                            "minecraft:potion_contents":{
+                                                "custom_color":16701501,
+                                                "custom_effects":[
+                                                    {"id":"minecraft:absorption","duration":12000,"amplifier":7,"show_particles":false,"show_icon":false}
+                                                ]   
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "translate":"item.doomedchunk.potion.absorption.name",
+                                "fallback": "ライフシールド",
+                                "color":"blue",
+                                "hoverEvent": {
+                                    "action": "show_item",
+                                    "contents": {
+                                        "id": "minecraft:potion",
+                                        "components": {
+                                            "minecraft:potion_contents":{
+                                                "custom_color":16701501,
+                                                "custom_effects":[
+                                                    {"id":"minecraft:absorption","duration":12000,"amplifier":15,"show_particles":false,"show_icon":false}
+                                                ]   
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "translate":"item.doomedchunk.book.desc.page.7",
+                "fallback": "§4§lアイテム紹介\n§0以下のアイテムは使用方法が特殊です\n",
+                "extra": [
+                    {
+                        "translate": "item.doomedchunk.book.desc.page.7.armor",
+                        "fallback": "%1$s, %2$s, %3$s :\n装備することで、対応する防具一式が自動で装備されます\n自動装備される頭・脚・ブーツは取り外すことができません",
+                        "with": [
+                            {
+                                "translate":"item.minecraft.leather_chestplate",
+                                "color":"blue",
+                                "hoverEvent": {
+                                    "action": "show_item",
+                                    "contents": {
+                                        "id": "minecraft:leather_chestplate"
+                                    }
+                                }
+                            },
+                            {
+                                "translate":"item.minecraft.iron_chestplate",
+                                "color":"blue",
+                                "hoverEvent": {
+                                    "action": "show_item",
+                                    "contents": {
+                                        "id": "minecraft:iron_chestplate"
+                                    }
+                                }
+                            },
+                            {
+                                "translate":"item.minecraft.diamond_chestplate",
+                                "color":"blue",
+                                "hoverEvent": {
+                                    "action": "show_item",
+                                    "contents": {
+                                        "id": "minecraft:diamond_chestplate"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "translate":"item.doomedchunk.book.desc.page.7",
+                "fallback": "§4§lアイテム紹介\n§0以下のアイテムは使用方法が特殊です\n",
+                "extra": [
+                    {
+                        "translate": "item.doomedchunk.book.desc.page.7.shield",
+                        "fallback": "%1$s : メインハンドまたはオフハンドに装備することで、防具で軽減可能なあらゆるダメージを無効化します\n無効化するたびに耐久値を消費します\nメインハンドに銃が存在する場合、この効果は発生しません",
+                        "with": [
+                            {
+                                "translate":"item.minecraft.shield",
+                                "color":"blue",
+                                "hoverEvent": {
+                                    "action": "show_item",
+                                    "contents": {
+                                        "id": "minecraft:shield"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "translate":"item.doomedchunk.book.desc.page.8",
+                "fallback": "§4§lアイテム紹介\n§0以下はModで追加されたアイテムです\n",
+                "extra": [
+                    {
+                        "translate": "item.doomedchunk.book.desc.page.8.dynamite",
+                        "fallback": "%1$s : スプラッシュポーションとおなじく、右クリックで投げます\nブロックに当たるとすぐに爆発するため、自爆に注意してください",
+                        "with": [
+                            {
+                                "translate":"item.bombs.dynamite",
+                                "color":"blue",
+                                "hoverEvent": {
+                                    "action": "show_item",
+                                    "contents": {
+                                        "id": "bombs:dynamite",
+                                        "components": {
+                                            "bombs:modifiers": ["golden","lethal","quickdraw"],
+                                            "bombs:tier": 3
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "translate":"item.doomedchunk.book.desc.page.10",
+                "fallback": "§4§lあなたのキーバインド\n§0このワールドでよく使うキーです\n",
+                "extra": [
+                    {"translate":"key.sprint"},
+                    {"text": ": "},
+                    {"keybind": "key.sprint", "color": "blue"},
+                    {"text": "\n"},
+                    {"translate":"key.sneak"},
+                    {"text": ": "},
+                    {"keybind": "key.sneak", "color": "blue"},
+                    {"text": "\n"},
+                    {"translate":"key.tacz.crawl.desc"},
+                    {"text": ": "},
+                    {"keybind": "key.tacz.crawl.desc", "color": "blue"},
+                    {"text": "\n"},
+                    {"translate":"key.tacz.reload.desc"},
+                    {"text": ": "},
+                    {"keybind": "key.tacz.reload.desc", "color": "blue"},
+                    {"text": "\n"},
+                    {"translate":"key.tacz.fire_select.desc"},
+                    {"text": ": "},
+                    {"keybind": "key.tacz.fire_select.desc", "color": "blue"},
+                    {"text": "\n"},
+                    {"translate":"key.tacz.zoom.desc"},
+                    {"text": ": "},
+                    {"keybind": "key.tacz.zoom.desc", "color": "blue"},
+                    {"text": "\n"},
+                    {"translate":"key.tacz.interact.desc"},
+                    {"text": ": "},
+                    {"keybind": "key.tacz.interact.desc", "color": "blue"},
+                    {"text": "\n"},
+                    {"translate":"key.swapOffhand"},
+                    {"text": ": "},
+                    {"keybind": "key.swapOffhand", "color": "blue"},
+                    {"text": "\n"},
+                    {"translate":"key.inventory"},
+                    {"text": ": "},
+                    {"keybind": "key.inventory", "color": "blue"},
+                    {"text": "\n"}
+                ]
+                
+            }
+        ]
+    } 
+]
