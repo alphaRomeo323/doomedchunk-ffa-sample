@@ -30,7 +30,7 @@
             },
             {
                 "translate":"item.doomedchunk.book.desc.page.2",
-                "fallback": "§4§l遊び方\n§0ワールドに最初に入ったプレイヤー(もしくは管理者)には、「%1$s」が渡されます。\nマッチを開始するには、この%1$s内に書かれている「%2$s」を押してください\n\nゲーム時間は、デフォルトで5分です\n一番敵を多く倒した人が勝利!",
+                "fallback": "§4§l始め方\n§0ワールドに最初に入ったプレイヤー(もしくは管理者)には、「%1$s」が渡されます。\nマッチを開始するには、この%1$s内に書かれている「%2$s」を押してください\n\nゲーム時間は、デフォルトで5分です\n一番敵を多く倒した人が勝利!",
                 "with": [
                     {
                         "translate":"item.doomedchunk.book.admin.name",
@@ -50,7 +50,7 @@
             },
             {
                 "translate":"item.doomedchunk.book.desc.page.5",
-                "fallback": "§4§l銃の取り扱い\n§0バニラの射撃武器と異なり\n%1$sを射撃する場合は§9左クリック§0を押します\n§9右クリック§0でスコープを覗くことができます。移動速度は下がりますが、精度が向上し、遠くが狙いやすくなります\n\n残弾数は右下から確認できます。残弾が少なくなったら§9R§0キーでリロードしてください",
+                "fallback": "§4§l銃の取り扱い\n§0バニラの射撃武器と異なり\n%1$sを射撃する場合は§9左クリック§0を押します\n§9右クリック§0でスコープを覗くことができます。移動速度は下がりますが、精度が向上し、遠くが狙いやすくなります\n\n残弾数は画面右下に表示されます。残弾が少なくなったら§9R§0キーでリロードしてください",
                 "with": [
                     {
                         "translate":"item.doomedchunk.book.desc.page.5.gun",
@@ -79,7 +79,7 @@
                 "extra": [
                     {
                         "translate": "item.doomedchunk.book.desc.page.9.9mm",
-                        "fallback": "%s : 見つけやすいが威力は控えめ\n",
+                        "fallback": "%s : 見つけやすいが威力控えめ\n",
                         "with": [
                             {
                                 "translate":"tacz.ammo.9mm.name",
@@ -96,7 +96,7 @@
                         ]
                     },
                     {
-                        "translate": "item.doomedchunk.book.desc.page.9.9mm",
+                        "translate": "item.doomedchunk.book.desc.page.9.556x45",
                         "fallback": "%s : 連射武器が多く扱いやすい\n",
                         "with": [
                             {
@@ -115,7 +115,7 @@
                         ]
                     },
                     {
-                        "translate": "item.doomedchunk.book.desc.page.9.9mm",
+                        "translate": "item.doomedchunk.book.desc.page.9.308",
                         "fallback": "%s : 弾数が少なく高威力\n",
                         "with": [
                             {
@@ -133,8 +133,8 @@
                         ]
                     },
                     {
-                        "translate": "item.doomedchunk.book.desc.page.9.9mm",
-                        "fallback": "%s : 高威力で近距離向き\n",
+                        "translate": "item.doomedchunk.book.desc.page.9.12g",
+                        "fallback": "%s : 近距離専用,ノックバックがある\n",
                         "with": [
                             {
                                 "translate":"tacz.ammo.12g.name",
