@@ -1,0 +1,40 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "id": "doomedchunk:melee_buff",
+                "attribute": "minecraft:generic.attack_damage",
+                "operation": "add_value",
+                "amount": 24,
+                "slot": ["mainhand"]
+            },
+            {
+                "id": "doomedchunk:melee_buff",
+                "attribute": "minecraft:generic.attack_speed",
+                "operation": "add_value",
+                "amount": -3,
+                "slot": ["mainhand"]
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function":"minecraft:set_components",
+        "components": {
+            "minecraft:can_break":{
+                "blocks":"#doomedchunk:breakable"
+            }
+        }
+    },
+    {
+        "function":"minecraft:toggle_tooltips",
+        "toggles":{
+            "minecraft:can_break":false
+        }
+    },
+    {
+        "function": "minecraft:reference",
+        "name":"doomedchunk:enchantments/random_vanishing"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.m4a1.name",
+            "italic":false,
+            "color": "yellow"
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:m4a1\", GunCurrentAmmoCount:30}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSCOPE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:sight_552\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSTOCK:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:stock_sba3\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentMUZZLE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:muzzle_silencer_knight_qd\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentGRIP:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:grip_td\"}},count:1, id:\"tacz:attachment\"}}"
+    }
+]

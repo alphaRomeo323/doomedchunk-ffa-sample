@@ -1,0 +1,24 @@
+[
+    {
+        "function": "minecraft:reference",
+        "name":"doomedchunk:enchantments/random_vanishing"
+    },
+    {
+        "function":"minecraft:set_components",
+        "components": {
+            "minecraft:max_damage":80
+        }
+    },
+    {
+        "function": "minecraft:set_lore",
+        "lore": [
+            {
+                "translate":"item.doomedchunk.armor.desc",
+                "fallback": "装備すると対応する防具一式が自動装備されます",
+                "italic":false,
+                "color":"green"
+            }
+        ],
+        "mode": "replace_all"
+    }
+]

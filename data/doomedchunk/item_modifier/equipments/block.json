@@ -1,0 +1,16 @@
+[
+    {
+        "function":"minecraft:set_components",
+        "components": {
+            "minecraft:can_place_on":{
+                "blocks":"#doomedchunk:scaffolding_placeable"
+            }
+        }
+    },
+    {
+        "function":"minecraft:toggle_tooltips",
+        "toggles":{
+            "minecraft:can_place_on":false
+        }
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate":"item.doomedchunk.potion.instant_health.name",
+            "fallback": "ラストエリクサー",
+            "italic":false,
+            "color":"gold"
+        }
+    },
+    {
+        "function": "minecraft:set_lore",
+        "lore": [
+            {
+                "translate":"item.doomedchunk.potion.absorption_weak.desc",
+                "fallback": "緊急用の回復薬です",
+                "italic":false,
+                "color":"gold"
+            }
+        ],
+        "mode": "replace_all"
+    },
+    {
+        "function":"minecraft:set_components",
+        "components": {
+            "minecraft:potion_contents":{
+                "custom_color":15998992,
+                "custom_effects":[
+                    {"id":"minecraft:instant_health","amplifier":9,"show_particles":false}
+                ]
+                
+            },
+            "minecraft:food":{
+                "nutrition":5,
+                "saturation":15,
+                "can_always_eat":true
+            }
+        }
+    }
+]

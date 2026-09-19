@@ -1,0 +1,25 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate":"item.doomedchunk.book.admin.name",
+            "fallback": "管理用の本",
+            "italic":false
+        }
+    },
+    {
+        "function":"set_written_book_pages",
+        "mode": "replace_all",
+        "pages":[
+            {
+                "translate":"item.doomedchunk.book.admin.start",
+                "fallback":"クリックして開始",
+                "underlined":true,
+                "clickEvent":{
+                    "action":"run_command",
+                    "value":"/trigger start set 1"
+                }
+            }
+        ]
+    } 
+]

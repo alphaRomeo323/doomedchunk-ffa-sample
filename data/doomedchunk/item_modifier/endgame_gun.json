@@ -1,0 +1,12 @@
+[
+    {
+        "function": "minecraft:reference",
+        "name":"doomedchunk:guns/g36k"
+    },
+    {
+        "function":"set_enchantments",
+        "enchantments":{
+            "minecraft:vanishing_curse": 1
+        }
+    }
+]

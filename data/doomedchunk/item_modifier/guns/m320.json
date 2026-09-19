@@ -1,0 +1,14 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.m320.name",
+            "italic":false,
+            "color": "light_purple"
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"SEMI\", GunId:\"tacz:m320\", GunCurrentAmmoCount:1}"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate":"item.minecraft.potion.effect.invisibility",
+            "italic":false,
+            "color":"green"
+        }
+    },
+    {
+        "function":"minecraft:set_components",
+        "components": {
+            "minecraft:potion_contents":{
+                "custom_color":16383998,
+                "custom_effects":[
+                    {"id":"minecraft:invisibility","duration":600,"amplifier":1,"show_particles":false,"show_icon":true}
+                ]
+                
+            },
+            "minecraft:food":{
+                "nutrition":5,
+                "saturation":6,
+                "can_always_eat":true
+            }
+        }
+    }
+]

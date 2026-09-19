@@ -1,0 +1,22 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.uzi.name",
+            "italic":false,
+            "color": "green"
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:uzi\", GunCurrentAmmoCount:20}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSCOPE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:sight_srs_02\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentMUZZLE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:muzzle_compensator_trident\"}},count:1, id:\"tacz:attachment\"}}"
+    }
+]

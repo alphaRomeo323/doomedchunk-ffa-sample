@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:chest",
+    "pools":[
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:guns/9mm",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:guns/556x45",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:guns/308",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:guns/12g",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

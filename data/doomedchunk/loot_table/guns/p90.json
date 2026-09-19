@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:chest",
+    "pools":[
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "functions":[
+                        {
+                            "function": "minecraft:reference",
+                            "name":"doomedchunk:guns/p90"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:ammo_box",
+                    "weight": 1,
+                    "functions":[
+                        {
+                            "function":"set_custom_data",
+                            "tag": "{AmmoId: \"tacz:57x28\", Level: 1, AmmoCount: 200}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
