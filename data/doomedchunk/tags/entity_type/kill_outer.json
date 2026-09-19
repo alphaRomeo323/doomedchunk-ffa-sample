@@ -5,7 +5,7 @@
         "bombs:thrown_dynamite",
         "minecraft:wind_charge",
         "minecraft:tnt",
-        "minecraft:arrow",
+        "#minecraft:arrows",
         "tacz:bullet"
     ]
 }
