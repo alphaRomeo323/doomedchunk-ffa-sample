@@ -1,20 +1,46 @@
 <h1 align="center">DoomedChunk</h1>
-<p align="center"><b><i>Defy the doomed chunk - 死に抗え、この"血塗られた"領域で</i></b></p>
+<p align="center"><b><i>Defy the doomed chunk - 死に抗え、この血塗られた領域で</i></b></p>
 
 ## アイテムを集めて銃撃戦!
 
-**DoomedChunk**は["Timeless and Classics Zero"(TaCZ)](https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) (現在は[非公式NeoForge Port版](https://www.curseforge.com/minecraft/mc-mods/tacz-1-21-1))を使用したPVPシステムです。KrunkerやApex Legends、コンソール版MinecraftのPVPモードにインスパイアされて制作しました。
+**DoomedChunk**は["Timeless and Classics Zero"(TaCZ)](https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero) (現在は[非公式NeoForge Port版](https://www.curseforge.com/minecraft/mc-mods/tacz-1-21-1))を使用した1.21.1 NeoForge向けPVPシステムです。KrunkerやApex Legends、コンソール版MinecraftのPVPモードにインスパイアされて制作しました。
 
 ### ゲームシステム
 
 - 1試合5分のサクサクプレイ
 - チェストを漁って強力な武器やアイテムを集めよう
 - 無限復活システム、アイテムは死んだ場所に残される
-- 長時間生き残ると発光により居場所がバレる
+- 長時間生存していると発光により居場所がバレる
 - 強力な武器が1つのマッチに1回ポップする。探して優位をとれ!
 - エンドゲームでは逆襲のための強力な武器が支給される
 - 推奨プレイ人数: 4~10人
 
+## 必須Mod
+### データパックの依存Mod
+**以下のModを導入しないと動作しません!**
+- [TaCZ Neoforge Port](https://www.curseforge.com/minecraft/mc-mods/tacz-1-21-1)
+- [Bombs](https://www.curseforge.com/minecraft/mc-mods/boom-bombs)
+
+### ワールドデータの依存Mod
+ワールド次第では、以下のModが必要となるかもしれません
+- [Create](https://www.curseforge.com/minecraft/mc-mods/create)
+- [MmmMmmMmmMmm](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm)
+- [Moonlight Lib](https://www.curseforge.com/minecraft/mc-mods/selene)
+
+### ゲームシステムを改善するMod
+このデータパックは、以下のModが導入されている前提でバランス調整を行っています
+- [Cloth Config API](https://www.curseforge.com/minecraft/mc-mods/cloth-config) (Client Only)
+- [Corpse](https://www.curseforge.com/minecraft/mc-mods/corpse)
+- [Inventory Free](https://www.curseforge.com/minecraft/mc-mods/inventory-free)
+- [InvMove](https://www.curseforge.com/minecraft/mc-mods/invmove) (Client Only)
+- [Stackable Potions](https://www.curseforge.com/minecraft/mc-mods/stackablepotions-forge)
+- TacticalOverhaul
+
+## Sample World
+### Outpost in Plane
+前哨基地"から"狙うか、はたまた前哨基地"を"狙うか
+
+[Download]()
 
 ## 新規マップ開発
 
