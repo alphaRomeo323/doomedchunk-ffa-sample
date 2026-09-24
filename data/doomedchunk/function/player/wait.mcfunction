@@ -12,13 +12,13 @@ $execute as @a[team=in_game,x=$(pos_x),y=-$(pos_y),z=$(pos_z),distance=..3] \
 execute as @a[team=in_game,gamemode=spectator] \
         if score @s respawn_timer >= #maxWaitTime preset run spectate
 
-# ゲーム中のスペクテイターモードプレイヤーをリスポーン待機部屋に戻す
-$teleport @a[team=in_game,gamemode=spectator] $(pos_x) $(pos_y) $(pos_z)
+# リスポーン待機部屋のプレイヤーをリスポーン待機部屋にとどめる
+$teleport @a[team=in_game,x=$(pos_x),y=-$(pos_y),z=$(pos_z),distance=..3] $(pos_x) $(pos_y) $(pos_z)
 
 # リスポーン時間になったプレイヤーをフィールドに配置する
-$execute as @a[team=in_game,x=$(pos_x),y=-$(pos_y),z=$(pos_z),distance=..3] \
-         if score @s respawn_timer >= #maxWaitTime preset \
-         run function doomedchunk:player/respawn
+execute as @a[tag=waitRespawn] \
+        if score @s respawn_timer >= #maxWaitTime preset \
+        run function doomedchunk:player/respawn
 
 # 終了
 return 1
