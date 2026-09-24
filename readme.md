@@ -34,13 +34,15 @@
 - [Inventory Free](https://www.curseforge.com/minecraft/mc-mods/inventory-free)
 - [InvMove](https://www.curseforge.com/minecraft/mc-mods/invmove) (Client Only)
 - [Stackable Potions](https://www.curseforge.com/minecraft/mc-mods/stackablepotions-forge)
-- TacticalOverhaul
+- TacticalOverhaul  
+  独自のゲームバランス調整用Modです。盾の仕様変更、一部ダメージのiframe無効化、ポーション飛距離の調整等が含まれます  
+  [Download Latest](https://dir.hakuteialpha.com/doomedchunk/tactical_overhaul/tactical_overhaul-1.21.1-0.0.3.3.jar)
 
 ## Sample World
 ### Outpost in Plane
 前哨基地"から"狙うか、はたまた前哨基地"を"狙うか
 
-[Download]()
+[Download](https://dir.hakuteialpha.com/doomedchunk/maps/outpost/dc_outpost_in_plains-v0.10.2.zip)
 
 ## 新規マップ開発
 
