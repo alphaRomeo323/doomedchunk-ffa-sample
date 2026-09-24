@@ -15,21 +15,21 @@ execute as @a[team=in_game,scores={rank=0,calc=0}] \
 
 # 2位決定 (1位の計算を1位を除外して反復試行)
 execute as @a[team=in_game,scores={rank=0}] \
-        run scoreboard players operation 1st calc > @s kills
+        run scoreboard players operation 2nd calc > @s kills
 execute as @a[team=in_game,scores={rank=0}] \
         run scoreboard players operation @s calc = @s kills
 execute as @a[team=in_game,scores={rank=0}] \
-        run scoreboard players operation @s calc -= 1st calc
+        run scoreboard players operation @s calc -= 2nd calc
 execute as @a[team=in_game,scores={rank=0,calc=0}] \
         run scoreboard players set @s rank 2
 
 # 3位決定 (1位の計算を1位,2位を除外して反復試行)
 execute as @a[team=in_game,scores={rank=0}] \
-        run scoreboard players operation 1st calc > @s kills
+        run scoreboard players operation 3rd calc > @s kills
 execute as @a[team=in_game,scores={rank=0}] \
         run scoreboard players operation @s calc = @s kills
 execute as @a[team=in_game,scores={rank=0}] \
-        run scoreboard players operation @s calc -= 1st calc
+        run scoreboard players operation @s calc -= 3rd calc
 execute as @a[team=in_game,scores={rank=0,calc=0}] \
         run scoreboard players set @s rank 3
 
