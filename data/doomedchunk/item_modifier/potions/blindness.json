@@ -1,0 +1,23 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate":"item.doomedchunk.potion.blindness.name",
+            "fallback": "ブラックアウトガス",
+            "italic":false,
+            "color":"red"
+        }
+    },
+    {
+        "function":"minecraft:set_components",
+        "components": {
+            "minecraft:potion_contents":{
+                "custom_color":1908001,
+                "custom_effects":[
+                    {"id":"minecraft:blindness","duration":80,"show_particles":false,"show_icon":true},
+                    {"id":"minecraft:slowness","duration":80,"amplifier":1,"show_particles":false}
+                ]
+            }
+        }
+    }
+]

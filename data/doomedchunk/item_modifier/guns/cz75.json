@@ -1,0 +1,18 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.cz75.name",
+            "italic":false,
+            "color": "green"
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:cz75\", GunCurrentAmmoCount:16}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSCOPE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:sight_fastfire_pistol\"}},count:1, id:\"tacz:attachment\"}}"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.hk_g3.name",
+            "italic":false,
+            "color": "aqua"
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:hk_g3\", GunCurrentAmmoCount:20}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSCOPE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:sight_exp3\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSTOCK:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:stock_militech_b5\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentGRIP:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:grip_magpul_afg_2\"}},count:1, id:\"tacz:attachment\"}}"
+    }
+]

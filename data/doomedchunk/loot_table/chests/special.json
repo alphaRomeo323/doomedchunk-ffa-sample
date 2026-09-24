@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:chest",
+    "pools":[
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:chests/default"
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:guns/m95"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:guns/p90"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "doomedchunk:guns/taurus500"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.mk14.name",
+            "italic":false,
+            "color": "aqua"
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"SEMI\", GunId:\"tacz:mk14\", GunCurrentAmmoCount:10}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSCOPE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:scope_lpvo_1_6\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSTOCK:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:stock_ripstock\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentGRIP:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:grip_cobra\"}},count:1, id:\"tacz:attachment\"}}"
+    }
+]

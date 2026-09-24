@@ -1,0 +1,27 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.m16a4.name",
+            "italic":false,
+            "color": "yellow"
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"BURST\", GunId:\"tacz:m16a4\", GunCurrentAmmoCount:30}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSCOPE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:scope_vudu\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSTOCK:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:stock_tactical_ar\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentGRIP:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:grip_vertical_military\"}},count:1, id:\"tacz:attachment\"}}"
+    }
+
+]

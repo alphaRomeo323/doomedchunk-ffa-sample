@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:chest",
+    "pools":[
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "functions":[
+                        {
+                            "function": "minecraft:reference",
+                            "name":"doomedchunk:guns/taurus500"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:ammo",
+                    "functions":[
+                        {
+                            "function":"set_custom_data",
+                            "tag": "{AmmoId: \"tacz:500mag\"}"
+                        },
+                        {
+                            "add": false,
+                            "count": 15,
+                            "function": "minecraft:set_count"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

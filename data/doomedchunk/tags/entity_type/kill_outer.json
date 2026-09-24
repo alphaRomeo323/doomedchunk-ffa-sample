@@ -1,0 +1,11 @@
+{
+    "replace":false,
+    "values":[
+        "minecraft:ender_pearl",
+        "bombs:thrown_dynamite",
+        "minecraft:wind_charge",
+        "minecraft:tnt",
+        "#minecraft:arrows",
+        "tacz:bullet"
+    ]
+}

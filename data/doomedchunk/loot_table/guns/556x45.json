@@ -1,0 +1,116 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "functions":[
+                        {
+                            "function":"set_custom_data",
+                            "tag": "{AmmoId: \"tacz:556x45\"}"
+                        },
+                        {
+                            "add": false,
+                            "count": 30,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "tacz:ammo",
+                    "weight": 6
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions":[
+                        {
+                            "function":"set_custom_data",
+                            "tag": "{AmmoId: \"tacz:556x45\"}"
+                        },
+                        {
+                            "add": false,
+                            "count": 60,
+                            "function": "minecraft:set_count"
+                        }
+                    ],
+                    "name": "tacz:ammo",
+                    "weight": 14
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:ammo_box",
+                    "weight": 1,
+                    "functions":[
+                        {
+                            "function":"set_custom_data",
+                            "tag": "{AmmoId: \"tacz:556x45\", Level: 2, AmmoCount: 180}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bonus_rolls": 0.0,
+            "rolls": 1,
+            "functions":[
+                {
+                    "function":"set_enchantments",
+                    "conditions":[{
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.3
+                    }],
+                    "enchantments":{
+                        "minecraft:vanishing_curse": 1
+                    }
+                }
+            ],
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 5,
+                    "functions":[
+                        {
+                            "function": "minecraft:reference",
+                            "name":"doomedchunk:guns/m4a1"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 4,
+                    "functions":[
+                        {
+                            "function": "minecraft:reference",
+                            "name":"doomedchunk:guns/m16a4"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 4,
+                    "functions":[
+                        {
+                            "function": "minecraft:reference",
+                            "name":"doomedchunk:guns/aug"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "tacz:modern_kinetic_gun",
+                    "weight": 1,
+                    "functions":[
+                        {
+                            "function": "minecraft:reference",
+                            "name":"doomedchunk:guns/m249"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

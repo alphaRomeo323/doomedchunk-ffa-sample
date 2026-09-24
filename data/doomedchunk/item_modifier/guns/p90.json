@@ -1,0 +1,22 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.p90.name",
+            "italic":false,
+            "color": "gold"
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:p90\", GunCurrentAmmoCount:50}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSCOPE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:sight_rmr_dot\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentLASER:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:laser_compact\"}},count:1, id:\"tacz:attachment\"}}"
+    }
+]

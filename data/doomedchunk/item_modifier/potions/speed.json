@@ -1,0 +1,28 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate":"item.doomedchunk.potion.speed.name",
+            "fallback": "興奮剤",
+            "italic":false,
+            "color":"green"
+        }
+    },
+    {
+        "function":"minecraft:set_components",
+        "components": {
+            "minecraft:potion_contents":{
+                "custom_color":2157011,
+                "custom_effects":[
+                    {"id":"minecraft:speed","duration":600,"amplifier":1,"show_particles":false,"show_icon":true}
+                ]
+                
+            },
+            "minecraft:food":{
+                "nutrition":5,
+                "saturation":6,
+                "can_always_eat":true
+            }
+        }
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name":{
+            "translate": "tacz.gun.m249.name",
+            "italic":false,
+            "color": "yellow"
+        }
+    },
+    {
+        "function":"set_custom_data",
+        "tag": "{HasBulletInBarrel:true, GunFireMode:\"AUTO\", GunId:\"tacz:m249\", GunCurrentAmmoCount:75}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentSCOPE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:scope_acog_ta31\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentGRIP:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:grip_rk1_b25u\"}},count:1, id:\"tacz:attachment\"}}"
+    },
+    {
+        "function":"set_custom_data",
+        "tag":"{AttachmentMUZZLE:{components:{\"minecraft:custom_data\":{AttachmentId:\"tacz:muzzle_brake_trex\"}},count:1, id:\"tacz:attachment\"}}"
+    }
+
+]
